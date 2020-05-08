@@ -18,4 +18,5 @@ echo "Preparando script..."
 sleep 1
 git clone https://github.com/Deepzirox/zirox_tools.git
 echo "Iniciando Framework..."
-python3 zirox_tools/tools.py termux
+cd zirox_tools
+python3 tools.py termux
