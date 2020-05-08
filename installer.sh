@@ -6,6 +6,7 @@ echo "Obteniendo librerias necesarias"
 sleep 1
 pkg install python
 pkg install git
+pkg install man
 pkg install util-linux
 pkg install libllvm
 echo "instalando modulos de python"
