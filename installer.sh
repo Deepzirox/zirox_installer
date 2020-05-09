@@ -9,8 +9,10 @@ pkg install git
 pkg install man
 pkg install util-linux
 pkg install libllvm
+pkg install tree
 echo "instalando modulos de python"
 sleep 1
+pip install wheel
 pip install colorama
 pip install shodan
 pip install flask
